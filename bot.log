@@ -1,7 +1,37 @@
+root - INFO - Бот запущен
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\dispatcher.py", line 343, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\handler.py", line 117, in handle_update
+    return self.callback(update, context)
+  File "C:\py2020\simple\telegramPython\learnPython\bot.py", line 25, in send_nail_design
+    context.send_photo(update.message.chat_id,open(nail_pic,'rb'))
+AttributeError: 'CallbackContext' object has no attribute 'send_photo'
 telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
 telegram.ext.updater - WARNING - Exiting immediately!
 root - INFO - Бот запущен
-root - INFO - Вызван старт
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\dispatcher.py", line 343, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\handler.py", line 117, in handle_update
+    return self.callback(update, context)
+  File "C:\py2020\simple\telegramPython\learnPython\bot.py", line 25, in send_nail_design
+    context.send_photo(update.message.chat_id,open(nail_pic,'rb'))
+AttributeError: 'CallbackContext' object has no attribute 'send_photo'
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+root - INFO - Бот запущен
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\dispatcher.py", line 343, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\handler.py", line 117, in handle_update
+    return self.callback(update, context)
+  File "C:\py2020\simple\telegramPython\learnPython\bot.py", line 24, in send_nail_design
+    print(update.bot)
+AttributeError: 'Update' object has no attribute 'bot'
 telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
 telegram.ext.updater - WARNING - Exiting immediately!
 root - INFO - Бот запущен
