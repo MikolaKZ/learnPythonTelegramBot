@@ -21,17 +21,10 @@ def start(update,context):
     context.user_data["emo"]=greatEmo
     chatInfo=getChatInfo(update)
     
-    contact_button = KeyboardButton('Прислать контакты', request_contact=True)
-    location_button = KeyboardButton('Прислать координаты', request_location=True)
-
-
     text="Привет {}! Меня зовут мастер Биба!{}".format(chatInfo.first_name,greatEmo)
 
-    my_keyboard=ReplyKeyboardMarkup([
-                                        ['Мои работы','Сменить аватарку'],
-                                        [contact_button,location_button]
-                                    ])
-    update.message.reply_text(text,reply_markup=my_keyboard)
+    
+    update.message.reply_text(text,reply_markup=get_keyboard())
 
 def getChatInfo(update):
     return update.message.chat
@@ -51,7 +44,17 @@ def talk_to_me(update,context):
 def get_contact(update,context):
     print (update.message.contact)
 
+def get_keyboard():
+    contact_button = KeyboardButton('Прислать контакты', request_contact=True)
+    location_button = KeyboardButton('Прислать координаты', request_location=True)
+    my_keyboard=ReplyKeyboardMarkup([
+                                        ['Мои работы','Сменить аватарку'],
+                                        [contact_button,location_button]
+                                    ],resize_keyboard=True
+                                    )
+    return my_keyboard
 
+                                    
 def change_avatar(update,context):
     greatEmoOld = None
     if 'emo' in context.user_data:
