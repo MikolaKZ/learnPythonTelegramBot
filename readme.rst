@@ -9,7 +9,17 @@ Telegram-bot-learn-python
 Для того что бы развернуть проект у себя на компьютере
     
 1. Создайте виртуальное окружение и активируйте его:
+
+.. code-block:: python
     
+    python -m venv env
+
+.. code-block:: text 
+
+    env\Scripts\activate
+
+
+2. Установити зависимости:    
 .. code-block:: text
 
         pip install -r requirements.text
