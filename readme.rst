@@ -19,12 +19,13 @@ Telegram-bot-learn-python
     env\Scripts\activate
 
 
-2. Установити зависимости:    
+2. Установити зависимости: 
+   
 .. code-block:: text
 
         pip install -r requirements.text
 
-2. Создайте файл settings.py в нем надо добавить константы 
+3. Создайте файл settings.py в нем надо добавить константы 
     
 .. code-block:: python
 
