@@ -1,0 +1,47 @@
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\dispatcher.py", line 343, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\handler.py", line 117, in handle_update
+    return self.callback(update, context)
+  File "C:\py2020\simple\telegramPython\learnPython\handlers.py", line 43, in change_avatar
+    greatEmo=emojize(choice(settings.GREAT_EMOJI),use_aliases=True)
+NameError: name 'settings' is not defined
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\dispatcher.py", line 343, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\handler.py", line 117, in handle_update
+    return self.callback(update, context)
+  File "C:\py2020\simple\telegramPython\learnPython\handlers.py", line 43, in change_avatar
+    greatEmo=emojize(choice(settings.GREAT_EMOJI),use_aliases=True)
+NameError: name 'settings' is not defined
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\dispatcher.py", line 343, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\handler.py", line 117, in handle_update
+    return self.callback(update, context)
+  File "C:\py2020\simple\telegramPython\learnPython\handlers.py", line 43, in change_avatar
+    greatEmo=emojize(choice(settings.GREAT_EMOJI),use_aliases=True)
+NameError: name 'settings' is not defined
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\dispatcher.py", line 343, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\handler.py", line 117, in handle_update
+    return self.callback(update, context)
+  File "C:\py2020\simple\telegramPython\learnPython\handlers.py", line 44, in change_avatar
+    greatEmo=emojize(choice(settings.GREAT_EMOJI),use_aliases=True)
+NameError: name 'settings' is not defined
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\dispatcher.py", line 343, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\handler.py", line 117, in handle_update
+    return self.callback(update, context)
+  File "C:\py2020\simple\telegramPython\learnPython\handlers.py", line 44, in change_avatar
+    greatEmo=emojize(choice(settings.GREAT_EMOJI),use_aliases=True)
+NameError: name 'settings' is not defined
