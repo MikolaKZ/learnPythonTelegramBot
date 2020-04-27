@@ -2,6 +2,11 @@ from utilits import get_keyboard
 from glob import glob
 from random import choice
 from emoji import emojize
+from telegram import ParseMode
+
+from telegram import ReplyKeyboardMarkup, ReplyKeyboardRemove
+from telegram.ext import ConversationHandler
+
 import logging
 import settings
 
@@ -18,6 +23,50 @@ def start(update,context):
 
 def getChatInfo(update):
     return update.message.chat
+
+def anketa_start(update,context):
+    update.message.reply_text("Как вас зовут? Напишите Имя и Фамилию", reply_markup=ReplyKeyboardRemove())
+    return "name"
+
+def anketa_get_name(update, context):
+    user_name = update.message.text
+    if len(user_name.split(" "))!=2:
+        update.message.reply_text("Пожалуйста введите имя и фамилию через пробел")
+        return "name"
+    else:
+        context.user_data['anketa_name'] = user_name
+        reply_keyboard=[
+                            ["1","2","3","4","5"]
+                        ]
+        update.message.reply_text("Оцените работу мастера по 5 бальной шкале",reply_markup=ReplyKeyboardMarkup(reply_keyboard,one_time_keyboard=True))
+        return "scors"
+
+def anketa_scor(update, context):
+    context.user_data['anketa_scors']=update.message.text
+    update.message.reply_text("""Пожалуйста напишите отзыв в свободной форме 
+                                или /cancel чтобы пропустить этот шаг""")
+    return "comment"
+
+def anketa_comment(update, context):
+    context.user_data['anketa_comment']=update.message.text
+    text="""
+    <b>Фамилия Имя:</b>{anketa_name}
+    <b>Оценка:</b>{anketa_scors}
+    <b>Комментарий:</b>{anketa_comment}""".format(**context.user_data)
+    
+    update.message.reply_text(text,reply_markup=get_keyboard(),parse_mode=ParseMode.HTML)
+    return ConversationHandler.END
+
+def anketa_cancel_comment(update, context):
+    context.user_data['anketa_comment']=update.message.text
+    text="""
+    <b>Фамилия Имя:</b>{anketa_name}
+    <b>Оценка:</b>{anketa_raiting}""".format(**context.user_data)
+    update.message.reply_text(text,reply_markup=get_keyboard(),parse_mode=ParseMode.HTML)
+    return ConversationHandler.END
+
+def anketa_dontknow(update, context):
+    update.message.reply_text("Не понимаю")
 
 def send_nail_design(update,context):
     naiil_list=glob("images/nogt*.jp*g")

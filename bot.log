@@ -45,3 +45,162 @@ Traceback (most recent call last):
   File "C:\py2020\simple\telegramPython\learnPython\handlers.py", line 44, in change_avatar
     greatEmo=emojize(choice(settings.GREAT_EMOJI),use_aliases=True)
 NameError: name 'settings' is not defined
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\dispatcher.py", line 343, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\conversationhandler.py", line 465, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\handler.py", line 117, in handle_update
+    return self.callback(update, context)
+  File "C:\py2020\simple\telegramPython\learnPython\handlers.py", line 55, in anketa_comment
+    <b>Комментарий:</b>{anketa_comment}""".format(**context.user_data)
+KeyError: 'anketa_raiting'
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\dispatcher.py", line 343, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\conversationhandler.py", line 465, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\handler.py", line 117, in handle_update
+    return self.callback(update, context)
+  File "C:\py2020\simple\telegramPython\learnPython\handlers.py", line 55, in anketa_comment
+    <b>Комментарий:</b>{anketa_comment}""".format(**context.user_data)
+KeyError: 'anketa_raiting'
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\dispatcher.py", line 343, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\conversationhandler.py", line 465, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\handler.py", line 117, in handle_update
+    return self.callback(update, context)
+  File "C:\py2020\simple\telegramPython\learnPython\handlers.py", line 55, in anketa_comment
+    <b>Комментарий:</b>{anketa_comment}""".format(**context.user_data)
+KeyError: 'anketa_raiting'
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 402, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 2, in raise_from
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 398, in _make_request
+    httplib_response = conn.getresponse()
+  File "C:\Users\123\AppData\Local\Programs\Python\Python36\lib\http\client.py", line 1331, in getresponse
+    response.begin()
+  File "C:\Users\123\AppData\Local\Programs\Python\Python36\lib\http\client.py", line 297, in begin
+    version, status, reason = self._read_status()
+  File "C:\Users\123\AppData\Local\Programs\Python\Python36\lib\http\client.py", line 258, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\Users\123\AppData\Local\Programs\Python\Python36\lib\socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+  File "C:\Users\123\AppData\Local\Programs\Python\Python36\lib\ssl.py", line 1012, in recv_into
+    return self.read(nbytes, buffer)
+  File "C:\Users\123\AppData\Local\Programs\Python\Python36\lib\ssl.py", line 874, in read
+    return self._sslobj.read(len, buffer)
+  File "C:\Users\123\AppData\Local\Programs\Python\Python36\lib\ssl.py", line 631, in read
+    v = self._sslobj.read(len, buffer)
+socket.timeout: The read operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\utils\request.py", line 225, in _request_wrapper
+    resp = self._con_pool.request(*args, **kwargs)
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 70, in request
+    **urlopen_kw)
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 148, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\poolmanager.py", line 244, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 666, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\retry.py", line 347, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\packages\six.py", line 686, in reraise
+    raise value
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 617, in urlopen
+    chunked=chunked)
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 405, in _make_request
+    exc_cls=ReadTimeoutError)
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 321, in _raise_timeout
+    raise exc_cls(*args)
+telegram.vendor.ptb_urllib3.urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=5.0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\dispatcher.py", line 343, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\handler.py", line 117, in handle_update
+    return self.callback(update, context)
+  File "C:\py2020\simple\telegramPython\learnPython\handlers.py", line 22, in start
+    update.message.reply_text(text,reply_markup=get_keyboard())
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\message.py", line 510, in reply_text
+    return self.bot.send_message(self.chat_id, *args, **kwargs)
+  File "<decorator-gen-2>", line 2, in send_message
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\bot.py", line 70, in decorator
+    result = func(*args, **kwargs)
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\bot.py", line 351, in send_message
+    timeout=timeout, **kwargs)
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\bot.py", line 178, in _message
+    result = self._request.post(url, data, timeout=timeout)
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\utils\request.py", line 334, in post
+    **urlopen_kwargs)
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\utils\request.py", line 227, in _request_wrapper
+    raise TimedOut()
+telegram.error.TimedOut: Timed out
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\dispatcher.py", line 343, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\conversationhandler.py", line 465, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\handler.py", line 117, in handle_update
+    return self.callback(update, context)
+  File "C:\py2020\simple\telegramPython\learnPython\handlers.py", line 55, in anketa_comment
+    <b>Комментарий:</b>{anketa_comment}""".format(**context.user_data)
+KeyError: 'anketa_raiting'
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\dispatcher.py", line 343, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\conversationhandler.py", line 465, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\handler.py", line 117, in handle_update
+    return self.callback(update, context)
+  File "C:\py2020\simple\telegramPython\learnPython\handlers.py", line 55, in anketa_comment
+    <b>Комментарий:</b>{anketa_comment}""".format(**context.user_data)
+KeyError: 'anketa_raiting'
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\dispatcher.py", line 343, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\conversationhandler.py", line 465, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\handler.py", line 117, in handle_update
+    return self.callback(update, context)
+  File "C:\py2020\simple\telegramPython\learnPython\handlers.py", line 52, in anketa_comment
+    print (**context.user_data)
+TypeError: 'emo' is an invalid keyword argument for this function
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\dispatcher.py", line 343, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\conversationhandler.py", line 465, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\handler.py", line 117, in handle_update
+    return self.callback(update, context)
+  File "C:\py2020\simple\telegramPython\learnPython\handlers.py", line 57, in anketa_comment
+    <b>Комментарий:</b>{anketa_comment}""".format(**context.user_data)
+KeyError: 'anketa_raiting'
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\dispatcher.py", line 343, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\conversationhandler.py", line 465, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\handler.py", line 117, in handle_update
+    return self.callback(update, context)
+  File "C:\py2020\simple\telegramPython\learnPython\handlers.py", line 57, in anketa_comment
+    <b>Комментарий:</b>{anketa_comment}""".format(**context.user_data)
+KeyError: 'anketa_raiting'
