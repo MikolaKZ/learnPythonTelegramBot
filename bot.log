@@ -204,3 +204,258 @@ Traceback (most recent call last):
   File "C:\py2020\simple\telegramPython\learnPython\handlers.py", line 57, in anketa_comment
     <b>Êîììåíòàðèé:</b>{anketa_comment}""".format(**context.user_data)
 KeyError: 'anketa_raiting'
+JobQueue - ERROR - An uncaught error was raised while executing job my_test
+Traceback (most recent call last):
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\jobqueue.py", line 292, in tick
+    job.run(self._dispatcher)
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\jobqueue.py", line 430, in run
+    self.callback(CallbackContext.from_job(self, dispatcher))
+TypeError: my_test() missing 1 required positional argument: 'job'
+JobQueue - ERROR - An uncaught error was raised while executing job my_test
+Traceback (most recent call last):
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\jobqueue.py", line 292, in tick
+    job.run(self._dispatcher)
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\jobqueue.py", line 430, in run
+    self.callback(CallbackContext.from_job(self, dispatcher))
+TypeError: my_test() missing 1 required positional argument: 'job'
+JobQueue - ERROR - An uncaught error was raised while executing job my_test
+Traceback (most recent call last):
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\jobqueue.py", line 292, in tick
+    job.run(self._dispatcher)
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\jobqueue.py", line 430, in run
+    self.callback(CallbackContext.from_job(self, dispatcher))
+TypeError: my_test() missing 1 required positional argument: 'job'
+JobQueue - ERROR - An uncaught error was raised while executing job my_test
+Traceback (most recent call last):
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\jobqueue.py", line 292, in tick
+    job.run(self._dispatcher)
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\jobqueue.py", line 430, in run
+    self.callback(CallbackContext.from_job(self, dispatcher))
+TypeError: my_test() missing 1 required positional argument: 'job'
+JobQueue - ERROR - An uncaught error was raised while executing job my_test
+Traceback (most recent call last):
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\jobqueue.py", line 292, in tick
+    job.run(self._dispatcher)
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\jobqueue.py", line 430, in run
+    self.callback(CallbackContext.from_job(self, dispatcher))
+TypeError: my_test() missing 1 required positional argument: 'job'
+JobQueue - ERROR - An uncaught error was raised while executing job my_test
+Traceback (most recent call last):
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\jobqueue.py", line 292, in tick
+    job.run(self._dispatcher)
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\jobqueue.py", line 430, in run
+    self.callback(CallbackContext.from_job(self, dispatcher))
+TypeError: my_test() missing 1 required positional argument: 'job'
+JobQueue - ERROR - An uncaught error was raised while executing job my_test
+Traceback (most recent call last):
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\jobqueue.py", line 292, in tick
+    job.run(self._dispatcher)
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\jobqueue.py", line 430, in run
+    self.callback(CallbackContext.from_job(self, dispatcher))
+TypeError: my_test() missing 1 required positional argument: 'job'
+JobQueue - ERROR - An uncaught error was raised while executing job my_test
+Traceback (most recent call last):
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\jobqueue.py", line 292, in tick
+    job.run(self._dispatcher)
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\jobqueue.py", line 430, in run
+    self.callback(CallbackContext.from_job(self, dispatcher))
+TypeError: my_test() missing 1 required positional argument: 'job'
+JobQueue - ERROR - An uncaught error was raised while executing job my_test
+Traceback (most recent call last):
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\jobqueue.py", line 292, in tick
+    job.run(self._dispatcher)
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\jobqueue.py", line 430, in run
+    self.callback(CallbackContext.from_job(self, dispatcher))
+TypeError: my_test() missing 1 required positional argument: 'job'
+JobQueue - ERROR - An uncaught error was raised while executing job my_test
+Traceback (most recent call last):
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\jobqueue.py", line 292, in tick
+    job.run(self._dispatcher)
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\jobqueue.py", line 430, in run
+    self.callback(CallbackContext.from_job(self, dispatcher))
+TypeError: my_test() missing 1 required positional argument: 'job'
+JobQueue - ERROR - An uncaught error was raised while executing job my_test
+Traceback (most recent call last):
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\jobqueue.py", line 292, in tick
+    job.run(self._dispatcher)
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\jobqueue.py", line 430, in run
+    self.callback(CallbackContext.from_job(self, dispatcher))
+TypeError: my_test() missing 1 required positional argument: 'job'
+JobQueue - ERROR - An uncaught error was raised while executing job my_test
+Traceback (most recent call last):
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\jobqueue.py", line 292, in tick
+    job.run(self._dispatcher)
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\jobqueue.py", line 430, in run
+    self.callback(CallbackContext.from_job(self, dispatcher))
+TypeError: my_test() missing 1 required positional argument: 'job'
+JobQueue - ERROR - An uncaught error was raised while executing job my_test
+Traceback (most recent call last):
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\jobqueue.py", line 292, in tick
+    job.run(self._dispatcher)
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\jobqueue.py", line 430, in run
+    self.callback(CallbackContext.from_job(self, dispatcher))
+TypeError: my_test() missing 1 required positional argument: 'job'
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+JobQueue - ERROR - An uncaught error was raised while executing job my_test
+Traceback (most recent call last):
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\jobqueue.py", line 292, in tick
+    job.run(self._dispatcher)
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\jobqueue.py", line 430, in run
+    self.callback(CallbackContext.from_job(self, dispatcher))
+  File "C:\py2020\simple\telegramPython\learnPython\handlers.py", line 104, in my_test
+    context.interval+=5
+AttributeError: 'CallbackContext' object has no attribute 'interval'
+JobQueue - ERROR - An uncaught error was raised while executing job my_test
+Traceback (most recent call last):
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\jobqueue.py", line 292, in tick
+    job.run(self._dispatcher)
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\jobqueue.py", line 430, in run
+    self.callback(CallbackContext.from_job(self, dispatcher))
+  File "C:\py2020\simple\telegramPython\learnPython\handlers.py", line 104, in my_test
+    context.interval+=5
+AttributeError: 'CallbackContext' object has no attribute 'interval'
+JobQueue - ERROR - An uncaught error was raised while executing job my_test
+Traceback (most recent call last):
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\jobqueue.py", line 292, in tick
+    job.run(self._dispatcher)
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\jobqueue.py", line 430, in run
+    self.callback(CallbackContext.from_job(self, dispatcher))
+  File "C:\py2020\simple\telegramPython\learnPython\handlers.py", line 104, in my_test
+    context.interval+=5
+AttributeError: 'CallbackContext' object has no attribute 'interval'
+JobQueue - ERROR - An uncaught error was raised while executing job my_test
+Traceback (most recent call last):
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\jobqueue.py", line 292, in tick
+    job.run(self._dispatcher)
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\jobqueue.py", line 430, in run
+    self.callback(CallbackContext.from_job(self, dispatcher))
+  File "C:\py2020\simple\telegramPython\learnPython\handlers.py", line 104, in my_test
+    context.interval+=5
+AttributeError: 'CallbackContext' object has no attribute 'interval'
+JobQueue - ERROR - An uncaught error was raised while executing job my_test
+Traceback (most recent call last):
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\jobqueue.py", line 292, in tick
+    job.run(self._dispatcher)
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\jobqueue.py", line 430, in run
+    self.callback(CallbackContext.from_job(self, dispatcher))
+  File "C:\py2020\simple\telegramPython\learnPython\handlers.py", line 104, in my_test
+    context.interval+=5
+AttributeError: 'CallbackContext' object has no attribute 'interval'
+JobQueue - ERROR - An uncaught error was raised while executing job my_test
+Traceback (most recent call last):
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\jobqueue.py", line 292, in tick
+    job.run(self._dispatcher)
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\jobqueue.py", line 430, in run
+    self.callback(CallbackContext.from_job(self, dispatcher))
+  File "C:\py2020\simple\telegramPython\learnPython\handlers.py", line 104, in my_test
+    context.interval+=5
+AttributeError: 'CallbackContext' object has no attribute 'interval'
+JobQueue - ERROR - An uncaught error was raised while executing job my_test
+Traceback (most recent call last):
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\jobqueue.py", line 292, in tick
+    job.run(self._dispatcher)
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\jobqueue.py", line 430, in run
+    self.callback(CallbackContext.from_job(self, dispatcher))
+  File "C:\py2020\simple\telegramPython\learnPython\handlers.py", line 104, in my_test
+    context.interval+=5
+AttributeError: 'CallbackContext' object has no attribute 'interval'
+JobQueue - ERROR - An uncaught error was raised while executing job my_test
+Traceback (most recent call last):
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\jobqueue.py", line 292, in tick
+    job.run(self._dispatcher)
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\jobqueue.py", line 430, in run
+    self.callback(CallbackContext.from_job(self, dispatcher))
+  File "C:\py2020\simple\telegramPython\learnPython\handlers.py", line 104, in my_test
+    context.interval+=5
+AttributeError: 'CallbackContext' object has no attribute 'interval'
+JobQueue - ERROR - An uncaught error was raised while executing job my_test
+Traceback (most recent call last):
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\jobqueue.py", line 292, in tick
+    job.run(self._dispatcher)
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\jobqueue.py", line 430, in run
+    self.callback(CallbackContext.from_job(self, dispatcher))
+  File "C:\py2020\simple\telegramPython\learnPython\handlers.py", line 104, in my_test
+    context.interval+=5
+AttributeError: 'CallbackContext' object has no attribute 'interval'
+JobQueue - ERROR - An uncaught error was raised while executing job my_test
+Traceback (most recent call last):
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\jobqueue.py", line 292, in tick
+    job.run(self._dispatcher)
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\jobqueue.py", line 430, in run
+    self.callback(CallbackContext.from_job(self, dispatcher))
+  File "C:\py2020\simple\telegramPython\learnPython\handlers.py", line 104, in my_test
+    context.interval+=5
+AttributeError: 'CallbackContext' object has no attribute 'interval'
+JobQueue - ERROR - An uncaught error was raised while executing job my_test
+Traceback (most recent call last):
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\jobqueue.py", line 292, in tick
+    job.run(self._dispatcher)
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\jobqueue.py", line 430, in run
+    self.callback(CallbackContext.from_job(self, dispatcher))
+  File "C:\py2020\simple\telegramPython\learnPython\handlers.py", line 104, in my_test
+    context.interval+=5
+AttributeError: 'CallbackContext' object has no attribute 'interval'
+JobQueue - ERROR - An uncaught error was raised while executing job my_test
+Traceback (most recent call last):
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\jobqueue.py", line 292, in tick
+    job.run(self._dispatcher)
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\jobqueue.py", line 430, in run
+    self.callback(CallbackContext.from_job(self, dispatcher))
+  File "C:\py2020\simple\telegramPython\learnPython\handlers.py", line 104, in my_test
+    context.interval+=5
+AttributeError: 'CallbackContext' object has no attribute 'interval'
+JobQueue - ERROR - An uncaught error was raised while executing job my_test
+Traceback (most recent call last):
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\jobqueue.py", line 292, in tick
+    job.run(self._dispatcher)
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\jobqueue.py", line 430, in run
+    self.callback(CallbackContext.from_job(self, dispatcher))
+  File "C:\py2020\simple\telegramPython\learnPython\handlers.py", line 107, in my_test
+    context.job.shedule_removal()
+AttributeError: 'Job' object has no attribute 'shedule_removal'
+JobQueue - ERROR - An uncaught error was raised while executing job my_test
+Traceback (most recent call last):
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\jobqueue.py", line 292, in tick
+    job.run(self._dispatcher)
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\jobqueue.py", line 430, in run
+    self.callback(CallbackContext.from_job(self, dispatcher))
+  File "C:\py2020\simple\telegramPython\learnPython\handlers.py", line 107, in my_test
+    context.job.shedule_removal()
+AttributeError: 'Job' object has no attribute 'shedule_removal'
+JobQueue - ERROR - An uncaught error was raised while executing job my_test
+Traceback (most recent call last):
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\jobqueue.py", line 292, in tick
+    job.run(self._dispatcher)
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\jobqueue.py", line 430, in run
+    self.callback(CallbackContext.from_job(self, dispatcher))
+  File "C:\py2020\simple\telegramPython\learnPython\handlers.py", line 107, in my_test
+    context.job.shedule_removal()
+AttributeError: 'Job' object has no attribute 'shedule_removal'
+JobQueue - ERROR - An uncaught error was raised while executing job my_test
+Traceback (most recent call last):
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\jobqueue.py", line 292, in tick
+    job.run(self._dispatcher)
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\jobqueue.py", line 430, in run
+    self.callback(CallbackContext.from_job(self, dispatcher))
+  File "C:\py2020\simple\telegramPython\learnPython\handlers.py", line 107, in my_test
+    context.job.sñhedule_removal()
+AttributeError: 'Job' object has no attribute 'sñhedule_removal'
+JobQueue - ERROR - An uncaught error was raised while executing job my_test
+Traceback (most recent call last):
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\jobqueue.py", line 292, in tick
+    job.run(self._dispatcher)
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\jobqueue.py", line 430, in run
+    self.callback(CallbackContext.from_job(self, dispatcher))
+  File "C:\py2020\simple\telegramPython\learnPython\handlers.py", line 107, in my_test
+    context.job.sñhedule_removal()
+AttributeError: 'Job' object has no attribute 'sñhedule_removal'
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\dispatcher.py", line 343, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\handler.py", line 117, in handle_update
+    return self.callback(update, context)
+  File "C:\py2020\simple\telegramPython\learnPython\handlers.py", line 19, in user_unsubscribe
+    if update.message.chat_id in subsctibes:
+NameError: name 'subsctibes' is not defined

@@ -10,10 +10,17 @@ logging.basicConfig(format='%(name)s - %(levelname)s - %(message)s',
                     filename='bot.log'
                     )
 
+subsctibers = set()                   
+
 def main():
+
+    
+
     mybot = Updater(settings.API_KEY,use_context=True)
    
     dp=mybot.dispatcher
+
+    mybot.job_queue.run_repeating(my_test,interval=5)
 
     anketa = ConversationHandler(
         entry_points=[MessageHandler(Filters.regex('^(Заполить анкету)$'),anketa_start,pass_user_data=True)],
@@ -27,6 +34,8 @@ def main():
    
     dp.add_handler(anketa)
     dp.add_handler(CommandHandler('start',start,pass_user_data=True))
+    dp.add_handler(CommandHandler("subscribe",user_subscribe))
+    dp.add_handler(CommandHandler("unsubscribe",user_unsubscribe))
     dp.add_handler(CommandHandler('nail',send_nail_design,pass_user_data=True))
     dp.add_handler(MessageHandler(Filters.regex('^(Мои работы)$'),send_nail_design,pass_user_data=True))
     dp.add_handler(MessageHandler(Filters.regex('^(Сменить аватарку)$'),change_avatar,pass_user_data=True))

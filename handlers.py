@@ -7,8 +7,22 @@ from telegram import ParseMode
 from telegram import ReplyKeyboardMarkup, ReplyKeyboardRemove
 from telegram.ext import ConversationHandler
 
+from bot import subsctibers
 import logging
 import settings
+
+def user_subscribe(update,context):
+    subsctibers.add(update.message.chat_id)
+    update.message.reply_text("Вы подписались, наберите /unsubscribe чтобы отписаться")
+
+def user_unsubscribe(update,context):
+    if update.message.chat_id in subsctibers:
+        subsctibers.remove(update.message.chat_id)
+        update.message.reply_text("Вы отписались, спасибо что были с нами")
+    else:
+        update.message.reply_text("Вы не подписаны, наберите /subscribe, что бы подписаться")
+
+
 
 def start(update,context):
     
@@ -18,14 +32,15 @@ def start(update,context):
     chatInfo=getChatInfo(update)
     
     text="Привет {}! Меня зовут мастер Биба!{}".format(chatInfo.first_name,greatEmo)
-
+    print(update.message)
     update.message.reply_text(text,reply_markup=get_keyboard())
 
 def getChatInfo(update):
     return update.message.chat
 
 def anketa_start(update,context):
-    update.message.reply_text("Как вас зовут? Напишите Имя и Фамилию", reply_markup=ReplyKeyboardRemove())
+    update.message.reply_text("Как вас зовут? Напишите Имя и Фамилию", 
+                                reply_markup=ReplyKeyboardRemove())
     return "name"
 
 def anketa_get_name(update, context):
@@ -97,3 +112,12 @@ def change_avatar(update,context):
         update.message.reply_text("New avatar added = {}".format(greatEmo))
     else:
         update.message.reply_text("Avatar has been changed from {} to {}".format(greatEmoOld,greatEmo))
+
+
+def my_test(context):
+    for subscriber in subsctibers:
+        context.bot.sendMessage(chat_id=subscriber,text="text test spam")
+        context.job.interval+=5
+        if context.job.interval>10:
+            context.bot.sendMessage(chat_id=subscriber,text="Пока!")
+            context.job.schedule_removal()
