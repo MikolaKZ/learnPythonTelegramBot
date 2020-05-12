@@ -3,6 +3,7 @@ from glob import glob
 from random import choice
 from emoji import emojize
 from telegram import ParseMode
+from telegram.ext import messagequeue as mq
 
 from telegram import ReplyKeyboardMarkup, ReplyKeyboardRemove
 from telegram.ext import ConversationHandler
@@ -113,11 +114,10 @@ def change_avatar(update,context):
     else:
         update.message.reply_text("Avatar has been changed from {} to {}".format(greatEmoOld,greatEmo))
 
-
-def my_test(context):
+def my_test(update,context):
     for subscriber in subsctibers:
-        context.bot.sendMessage(chat_id=subscriber,text="text test spam")
-        context.job.interval+=5
-        if context.job.interval>10:
-            context.bot.sendMessage(chat_id=subscriber,text="Пока!")
-            context.job.schedule_removal()
+        #context.bot.sendMessage(chat_id=subscriber,text="text test spam")
+        for ix in range(10):
+            context.bot.send_message(chat_id=subscriber,text="text test spam")
+            #context.bot.sendMessage(chat_id=subscriber,text="Пока!")
+            #context.job.schedule_removal()
