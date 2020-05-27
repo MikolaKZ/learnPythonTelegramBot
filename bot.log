@@ -3907,3 +3907,154 @@ Traceback (most recent call last):
   File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\messagequeue.py", line 305, in wrapped
     queued = kwargs.pop('queued', self._is_messages_queued_default)
 AttributeError: 'Update' object has no attribute '_is_messages_queued_default'
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\dispatcher.py", line 343, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\handler.py", line 117, in handle_update
+    return self.callback(update, context)
+TypeError: set_alarm() missing 2 required positional arguments: 'args' and 'job_queue'
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\dispatcher.py", line 343, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\handler.py", line 117, in handle_update
+    return self.callback(update, context)
+TypeError: set_alarm() missing 2 required positional arguments: 'args' and 'job_queue'
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\dispatcher.py", line 343, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\handler.py", line 117, in handle_update
+    return self.callback(update, context)
+TypeError: set_alarm() missing 2 required positional arguments: 'args' and 'job_queue'
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\dispatcher.py", line 343, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\handler.py", line 117, in handle_update
+    return self.callback(update, context)
+TypeError: set_alarm() missing 2 required positional arguments: 'args' and 'job_queue'
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\dispatcher.py", line 343, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\handler.py", line 117, in handle_update
+    return self.callback(update, context)
+TypeError: set_alarm() missing 2 required positional arguments: 'args' and 'job_queue'
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\dispatcher.py", line 343, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\handler.py", line 117, in handle_update
+    return self.callback(update, context)
+TypeError: set_alarm() missing 2 required positional arguments: 'args' and 'job_queue'
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\dispatcher.py", line 343, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\handler.py", line 117, in handle_update
+    return self.callback(update, context)
+TypeError: set_alarm() missing 2 required positional arguments: 'args' and 'job_queue'
+JobQueue - ERROR - An uncaught error was raised while executing job alarm
+Traceback (most recent call last):
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\jobqueue.py", line 292, in tick
+    job.run(self._dispatcher)
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\jobqueue.py", line 430, in run
+    self.callback(CallbackContext.from_job(self, dispatcher))
+TypeError: alarm() missing 1 required positional argument: 'context'
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\dispatcher.py", line 343, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\handler.py", line 117, in handle_update
+    return self.callback(update, context)
+TypeError: set_alarm() missing 1 required positional argument: 'job_queue'
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\dispatcher.py", line 343, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\handler.py", line 117, in handle_update
+    return self.callback(update, context)
+  File "C:\py2020\simple\telegramPython\learnPython\handlers.py", line 127, in set_alarm
+    context.job_queue.run_once(alarm,seconds,usser_id=update.message.chat_id)
+TypeError: run_once() got an unexpected keyword argument 'usser_id'
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\dispatcher.py", line 343, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\handler.py", line 117, in handle_update
+    return self.callback(update, context)
+  File "C:\py2020\simple\telegramPython\learnPython\handlers.py", line 129, in set_alarm
+    context.job_queue.run_once(alarm,seconds,usser_id=update.message.chat_id)
+TypeError: run_once() got an unexpected keyword argument 'usser_id'
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\dispatcher.py", line 343, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\handler.py", line 117, in handle_update
+    return self.callback(update, context)
+  File "C:\py2020\simple\telegramPython\learnPython\handlers.py", line 129, in set_alarm
+    context.job_queue.run_once(alarm,seconds,usser_id=update.message.chat_id)
+TypeError: run_once() got an unexpected keyword argument 'usser_id'
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\dispatcher.py", line 343, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\handler.py", line 117, in handle_update
+    return self.callback(update, context)
+  File "C:\py2020\simple\telegramPython\learnPython\handlers.py", line 127, in set_alarm
+    context.job_queue.run_once(alarm,seconds,usser_id=update.message.chat_id)
+TypeError: run_once() got an unexpected keyword argument 'usser_id'
+JobQueue - ERROR - An uncaught error was raised while executing job alarm
+Traceback (most recent call last):
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\jobqueue.py", line 292, in tick
+    job.run(self._dispatcher)
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\jobqueue.py", line 430, in run
+    self.callback(CallbackContext.from_job(self, dispatcher))
+  File "C:\py2020\simple\telegramPython\learnPython\handlers.py", line 133, in alarm
+    context.bot.sendMessage(chat_id=context,text="Сработал будильник!")
+  File "<decorator-gen-2>", line 2, in send_message
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\bot.py", line 70, in decorator
+    result = func(*args, **kwargs)
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\bot.py", line 351, in send_message
+    timeout=timeout, **kwargs)
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\bot.py", line 178, in _message
+    result = self._request.post(url, data, timeout=timeout)
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\utils\request.py", line 332, in post
+    body=json.dumps(data).encode('utf-8'),
+  File "C:\Users\123\AppData\Local\Programs\Python\Python36\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\123\AppData\Local\Programs\Python\Python36\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\123\AppData\Local\Programs\Python\Python36\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\123\AppData\Local\Programs\Python\Python36\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'CallbackContext' is not JSON serializable
+JobQueue - ERROR - An uncaught error was raised while executing job alarm
+Traceback (most recent call last):
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\jobqueue.py", line 292, in tick
+    job.run(self._dispatcher)
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\ext\jobqueue.py", line 430, in run
+    self.callback(CallbackContext.from_job(self, dispatcher))
+  File "C:\py2020\simple\telegramPython\learnPython\handlers.py", line 133, in alarm
+    context.bot.sendMessage(chat_id=context,text="Сработал будильник!")
+  File "<decorator-gen-2>", line 2, in send_message
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\bot.py", line 70, in decorator
+    result = func(*args, **kwargs)
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\bot.py", line 351, in send_message
+    timeout=timeout, **kwargs)
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\bot.py", line 178, in _message
+    result = self._request.post(url, data, timeout=timeout)
+  File "C:\py2020\simple\telegramPython\learnPython\env\lib\site-packages\telegram\utils\request.py", line 332, in post
+    body=json.dumps(data).encode('utf-8'),
+  File "C:\Users\123\AppData\Local\Programs\Python\Python36\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\123\AppData\Local\Programs\Python\Python36\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\123\AppData\Local\Programs\Python\Python36\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\123\AppData\Local\Programs\Python\Python36\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'CallbackContext' is not JSON serializable

@@ -6,7 +6,9 @@ def get_keyboard():
     location_button = KeyboardButton('Прислать координаты', request_location=True)
     my_keyboard=ReplyKeyboardMarkup([
                                         ['Мои работы','Сменить аватарку', 'Заполить анкету'],
-                                        [contact_button,location_button]
+                                        [contact_button,location_button,'/alarm']
                                     ],resize_keyboard=True
                                     )
     return my_keyboard
+
+

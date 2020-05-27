@@ -33,7 +33,6 @@ def start(update,context):
     chatInfo=getChatInfo(update)
     
     text="Привет {}! Меня зовут мастер Биба!{}".format(chatInfo.first_name,greatEmo)
-    print(update.message)
     update.message.reply_text(text,reply_markup=get_keyboard())
 
 def getChatInfo(update):
@@ -121,3 +120,15 @@ def my_test(update,context):
             context.bot.send_message(chat_id=subscriber,text="text test spam")
             #context.bot.sendMessage(chat_id=subscriber,text="Пока!")
             #context.job.schedule_removal()
+
+def set_alarm(update,context):
+    try:
+        seconds = abs(int(context.args[0]))
+        context.bot.send_message(chat_id=update.message.chat_id,
+                             text='Установлен будильник на {} секунд!'.format(seconds))
+        context.job_queue.run_once(alarm,seconds,context=update.message.chat_id)
+    except (IndexError, ValueError):
+        update.message.reply_text("Введите число секунд после команды /alarm")
+
+def alarm(context):
+    context.bot.sendMessage(chat_id=context.job.context,text="Сработал будильник!")
