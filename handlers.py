@@ -9,10 +9,13 @@ from telegram import ReplyKeyboardMarkup, ReplyKeyboardRemove
 from telegram.ext import ConversationHandler
 
 from bot import subsctibers
+from db import db, get_or_create_user
 import logging
 import settings
 
 def user_subscribe(update,context):
+    context.user_data=get_or_create_user(db,update.effective_user,update.message)
+    print(user)
     subsctibers.add(update.message.chat_id)
     update.message.reply_text("Вы подписались, наберите /unsubscribe чтобы отписаться")
 
